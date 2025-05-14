@@ -1,6 +1,6 @@
 # Tutorial on Fitting Populations to Catalogs with Selection Effects
 
-This was a notebook for a tutorial that I gave on fitting populations to catalogs with selection effects for our GW group meeting on 2025-05-14.  The tutorial worked up to the result in the [Callister, et al. (2021)]() "Who Ordered That?" paper that found a correlation between the mass ratio and the mean effective spin ("chi effective") in the LIGO catalog.  The tutorial is in the notebook `notebooks/SelectionTutorial.ipynb` and is written in Julia.  TODO: link to run in Colab?
+This was a notebook for a tutorial that I gave on fitting populations to catalogs with selection effects for our GW group meeting on 2025-05-14.  The tutorial worked up to the result in the [Callister, et al. (2021)]() "Who Ordered That?" paper that found a correlation between the mass ratio and the mean effective spin ("chi effective") in the LIGO catalog.  The tutorial is in the notebook `notebooks/SelectionTutorial.ipynb` and is written in Julia.  You should be able to run the notebook in [colab](https://colab.research.google.com/github/farr/GWGroupMeetingSelectionTutorial/blob/main/notebooks/SelectionTutorial.ipynb), though you will have to download a bunch of data from Zenodo, and I haven't tried it myself.
 
 The canonical way to install [Julia](http://julialang.org) is via [juliaup](https://julialang.org/install/).  Once you have it installed, and have cloned this repo, fire up a julia interpreter (via the command line, in VSCode, or whatever), and install the dependencies for this project via:
 
